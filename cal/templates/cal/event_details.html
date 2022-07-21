@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+{% block content %}
+
+        <article class="media content-section">
+            <div class="media-body">
+                <h2 class="text-center">{{object.tor}}</h2>
+                <p>Rezerwacja dokonana przez użytkownika {{object.user}}, {{object.user.profile.imie}} {{object.user.profile.nazwisko}}, Telefon: {{object.user.profile.nr_telefonu}}</p>
+                <p>Data rezerwacji: {{object.day}}.{{object.month}}.{{object.year}}</p>
+                <p>Godziny rezerwacji: {{object.hour_start}}:00 - {{object.hour_stop}}:00</p>
+            </div>
+        </article>
+
+{% endblock %}

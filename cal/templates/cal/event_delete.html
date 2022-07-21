@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+{% block content %}
+{% load crispy_forms_tags %}
+    <article class="content-section">
+        <div class="media-body">
+            <h2 class="text-center">{{object.tor}}</h2>
+            <p>Rezerwacja dokonana przez użytkownika {{object.user}}, {{object.user.profile.imie}} {{object.user.profile.nazwisko}}, Telefon: {{object.user.profile.nr_telefonu}}</p>
+            <p>Data rezerwacji: {{object.day}}.{{object.month}}.{{object.year}}</p>
+            <p>Godziny rezerwacji: {{object.hour_start}}:00 - {{object.hour_stop}}:00</p>
+        </div>
+        <div class="media-body">
+            <form method="post" class="mt-0">
+                {% csrf_token %}
+                {{form|crispy}}
+                <div align="center">
+                    <button type="submit" class="btn btn-danger">Usuń rezerwację</button>
+                </div>
+                <a class="btn btn-info" href="{% url 'cal:calendar' tor_pk %}"> Powrót do kalendarza </a>
+            </form>
+        </div>
+    </article>
+
+{% endblock %}

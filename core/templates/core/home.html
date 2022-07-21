@@ -1,0 +1,11 @@
+{% extends 'core/base.html' %}
+{% block content %}
+    {% for tor in tory %}
+        <article class="media content-section">
+            <div class="media-body">
+                <h2><a class="article-title" href="{% url 'cal:calendar' tor.id %}">{{ tor.nazwa }}</a></h2>
+                <p class="article-content">{{ tor.opis }}</p>
+            </div>
+        </article>
+    {% endfor %}
+{% endblock %}
