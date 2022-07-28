@@ -7,15 +7,17 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('core', '0001_initial'),
-        ('cal', '0002_auto_20220716_1414'),
+        ("core", "0001_initial"),
+        ("cal", "0002_auto_20220716_1414"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='event',
-            name='tor',
-            field=models.ForeignKey(default='1', on_delete=django.db.models.deletion.CASCADE, to='core.tor'),
+            model_name="event",
+            name="tor",
+            field=models.ForeignKey(
+                default="1", on_delete=django.db.models.deletion.CASCADE, to="core.tor"
+            ),
             preserve_default=False,
         ),
     ]

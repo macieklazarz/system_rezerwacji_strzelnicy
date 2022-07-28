@@ -6,24 +6,54 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('cal', '0003_event_tor'),
+        ("cal", "0003_event_tor"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='event',
-            name='hour',
+            model_name="event",
+            name="hour",
         ),
         migrations.AddField(
-            model_name='event',
-            name='hour_start',
-            field=models.IntegerField(choices=[(9, '09:00'), (10, '10:00'), (11, '11:00'), (12, '12:00'), (13, '13:00'), (14, '14:00'), (15, '15:00'), (16, '16:00'), (17, '17:00'), (18, '18:00')], default='0', verbose_name='Godzina początkowa'),
+            model_name="event",
+            name="hour_start",
+            field=models.IntegerField(
+                choices=[
+                    (9, "09:00"),
+                    (10, "10:00"),
+                    (11, "11:00"),
+                    (12, "12:00"),
+                    (13, "13:00"),
+                    (14, "14:00"),
+                    (15, "15:00"),
+                    (16, "16:00"),
+                    (17, "17:00"),
+                    (18, "18:00"),
+                ],
+                default="0",
+                verbose_name="Godzina początkowa",
+            ),
             preserve_default=False,
         ),
         migrations.AddField(
-            model_name='event',
-            name='hour_stop',
-            field=models.IntegerField(choices=[(9, '09:00'), (10, '10:00'), (11, '11:00'), (12, '12:00'), (13, '13:00'), (14, '14:00'), (15, '15:00'), (16, '16:00'), (17, '17:00'), (18, '18:00')], default='1', verbose_name='Godzina końcowa'),
+            model_name="event",
+            name="hour_stop",
+            field=models.IntegerField(
+                choices=[
+                    (9, "09:00"),
+                    (10, "10:00"),
+                    (11, "11:00"),
+                    (12, "12:00"),
+                    (13, "13:00"),
+                    (14, "14:00"),
+                    (15, "15:00"),
+                    (16, "16:00"),
+                    (17, "17:00"),
+                    (18, "18:00"),
+                ],
+                default="1",
+                verbose_name="Godzina końcowa",
+            ),
             preserve_default=False,
         ),
     ]
