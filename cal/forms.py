@@ -11,13 +11,11 @@ class EventForm(ModelForm):
 
     def __init__(self, *args, **kwargs):
         from django.forms.widgets import HiddenInput
-
+        hidden_fields = ['user', 'tor', 'year', 'month', 'day']
+    
         super(EventForm, self).__init__(*args, **kwargs)
-        self.fields["user"].widget = HiddenInput()
-        self.fields["tor"].widget = HiddenInput()
-        self.fields["year"].widget = HiddenInput()
-        self.fields["month"].widget = HiddenInput()
-        self.fields["day"].widget = HiddenInput()
+        for key in hidden_fields:
+            self.fields[key].widget = HiddenInput()
 
     def clean(self):
         fields = {
