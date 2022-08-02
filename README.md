@@ -73,5 +73,21 @@ Now we will add new axis:
 <br>
 <img src="https://user-images.githubusercontent.com/106651068/182448505-a91ee88e-7e98-4581-a21e-63cbcc017153.png" width="50%" height="50%"></img>
 <br>
+Fill the form with axis name and description:
+<br>
+<img src="https://user-images.githubusercontent.com/106651068/182448814-e9e91238-69dd-4a15-8eee-ab85846c748a.png" width="50%" height="50%"></img>
+<br>
+The axis has been added. Now log out:
+<br>
+<img src="https://user-images.githubusercontent.com/106651068/182449003-2776d948-7f53-42ca-b173-2806f7e3caec.png" width="50%" height="50%"></img>
+<br>
+Register new account to add reservation:
+<br>
+<img src="https://user-images.githubusercontent.com/106651068/182449171-cd97dae9-67df-4f8d-81cc-7449fc403982.png" width="50%" height="50%"></img>
+<br>
+Fill the form:
+<br>
+<img src="https://user-images.githubusercontent.com/106651068/182449586-7d59c7b0-482c-4f65-b63f-3c3e6789abb2.png" width="50%" height="50%"></img>
+<br>
 
 </details>
