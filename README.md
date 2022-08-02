@@ -89,5 +89,37 @@ Fill the form:
 <br>
 <img src="https://user-images.githubusercontent.com/106651068/182449586-7d59c7b0-482c-4f65-b63f-3c3e6789abb2.png" width="50%" height="50%"></img>
 <br>
+New user has been created. Now log in into new_user account:
+<br>
+<img src="https://user-images.githubusercontent.com/106651068/182451157-62a23d6b-12e6-4885-ba7a-8bd06c4353b4.png" width="50%" height="50%"></img>
+<br>
+Choose axis:
+<br>
+<img src="https://user-images.githubusercontent.com/106651068/182451342-5794e3fc-6240-4077-915b-05cebf087544.png" width="50%" height="50%"></img>
+<br>
+Choose axis:
+<br>
+<img src="https://user-images.githubusercontent.com/106651068/182451342-5794e3fc-6240-4077-915b-05cebf087544.png" width="50%" height="50%"></img>
+<br>
+Select some date:
+<br>
+<img src="https://user-images.githubusercontent.com/106651068/182451488-151721fc-3885-4e17-b89b-4cb8aadd8730.png" width="50%" height="50%"></img>
+<br>
+Choose start and end time and click 'Rezerwuj':
+<br>
+<img src="https://user-images.githubusercontent.com/106651068/182451602-e84186f2-96d8-48d8-ab1b-1e5831bcaa8a.png" width="50%" height="50%"></img>
+<br>
+Now your reservation is visible:
+<br>
+<img src="https://user-images.githubusercontent.com/106651068/182451775-52b9ada1-68a5-42a4-b040-7e389bb3fb9a.png" width="50%" height="50%"></img>
+<br>
+Log out and log in again with admin credentials (admin/qapl12!@). Go to newly created axis and choose the lastly made reservation:
+<br>
+<img src="https://user-images.githubusercontent.com/106651068/182452291-ddb9a646-d4fc-4abe-878a-7c30fd6f1255.png" width="50%" height="50%"></img>
+<br>
+As admin you are able to delete reservation:
+<br>
+<img src="https://user-images.githubusercontent.com/106651068/182452442-197a2f26-963a-44fa-9136-9abcdfa201f8.png" width="50%" height="50%"></img>
+<br>
 
 </details>
