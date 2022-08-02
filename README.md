@@ -46,7 +46,7 @@ Technologies utilized in the frame of this project are:
 <details>
 <summary>Click here to see schema related to configuration of the <b>Project</b>!</summary>
 <br>
-<img src="https://user-images.githubusercontent.com/106651068/172850830-7caa3b2d-5f1d-4455-a62b-aeccaef08c7f.png" width="80%" height="80%"></img>
+<img src="https://user-images.githubusercontent.com/106651068/182433805-0df64a03-5fea-4b14-8b5b-13f93f939a75.png" width="80%" height="80%"></img>
 <br>
 </details>
 
