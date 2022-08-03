@@ -16,7 +16,7 @@ urlpatterns = [
         auth_views.LogoutView.as_view(template_name="users/logout.html"),
         name="logout",
     ),
-    path("profile/", user_views.Profile.as_view(), name="profile"),
+    path("profile/", user_views.ProfileView.as_view(), name="profile"),
     path("tory_list/", views.TorListView.as_view(), name="tory_list"),
     path("tory_list/new/", views.TorCreateView.as_view(), name="tor_create"),
     path("tory_list/update/<int:pk>", views.TorUpdateView.as_view(), name="tor_update"),

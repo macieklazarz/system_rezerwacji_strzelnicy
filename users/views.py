@@ -37,7 +37,7 @@ class Register(View):
             {"form": form, "profile_form": profile_form},
         )
 
-class Profile(View, LoginRequiredMixin):
+class ProfileView(View, LoginRequiredMixin):
     def get(self, *args, **kwargs):
         user_form = UserUpdateForm(instance=self.request.user)
         profile_form = ProfileUpdateForm(instance=self.request.user.profile)

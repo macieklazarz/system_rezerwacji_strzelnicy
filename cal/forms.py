@@ -48,26 +48,26 @@ class EventForm(ModelForm):
                 and selected_date.get("hour_stop") <= date.hour_stop
             ):
                 raise ValidationError(
-                    f"Nie możesz dokonać rezerwacji ponieważ wybrany termin jest już zajety - var 1 - {date}"
+                    f"Nie możesz dokonać rezerwacji ponieważ wybrany termin jest już zajety"
                 )
             if (
                 selected_date.get("hour_start") <= date.hour_start
                 and selected_date.get("hour_stop") >= date.hour_stop
             ):
                 raise ValidationError(
-                    f"Nie możesz dokonać rezerwacji ponieważ wybrany termin jest już zajety - var 2 - {date}"
+                    f"Nie możesz dokonać rezerwacji ponieważ wybrany termin jest już zajety"
                 )
             if (
                 selected_date.get("hour_start") >= date.hour_start
                 and selected_date.get("hour_start") < date.hour_stop
             ):
                 raise ValidationError(
-                    f"Nie możesz dokonać rezerwacji ponieważ wybrany termin jest już zajety - var 3 - {date}"
+                    f"Nie możesz dokonać rezerwacji ponieważ wybrany termin jest już zajety"
                 )
             if (
                 selected_date.get("hour_stop") > date.hour_start
                 and selected_date.get("hour_stop") <= date.hour_stop
             ):
                 raise ValidationError(
-                    f"Nie możesz dokonać rezerwacji ponieważ wybrany termin jest już zajety - var 4 - {date}"
+                    f"Nie możesz dokonać rezerwacji ponieważ wybrany termin jest już zajety"
                 )
