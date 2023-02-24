@@ -15,7 +15,7 @@
 This app is dedicated to manage shooting range resources. Users can do reservation of particular axes. Basic concept looks as following:
 <br>
 <ol>
-  <li>Admin axes</li>
+  <li>Admin creates axes</li>
   <li>User registers account</li>
   <li>User check available axes</li>
   <li>User do reservatin</li>
